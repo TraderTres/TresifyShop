@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tresify Shop</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="jaranilla_bt602e.css" />
+</head>
+<body>
+  <nav class="navigation">
+    <div class="nav-container">
+      <a href="#" class="brand"> Tresify</a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <div class="cart-icon" title="View Cart">
+          🛒 <span id="cart-count" class="cart-badge">0</span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" id="home">
+    <div class="hero-content">
+      <h1>Welcome to Tresify</h1>
+      <p>Discover the latest premium technology with uncompromised performance and stunning design.</p>
+      <a href="#products" class="cta-button">Shop Collection</a>
+    </div>
+  </header>
+
+  <main class="container" id="products">
+    <div class="section-header">
+      <h2>Featured Products</h2>
+      <p>Upgrade your lifestyle with our top picks for you.</p>
+    </div>
+
+    <div class="products-grid">
+      <article class="product-card">
+        <div class="image-wrapper">
+          <img src="iphone.png" alt="iPhone 17 Pro" loading="lazy" />
+        </div>
+        <div class="product-info">
+          <h3>iPhone 17 Pro</h3>
+          <p>
+            A powerful handheld computer featuring a revolutionary 48MP triple-camera system. Capture professional-grade photos effortlessly.
+          </p>
+          <div class="product-footer">
+            <span class="price">₱57,990.00</span>
+            <button class="add-to-cart-btn" onclick="addToCart()">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="image-wrapper">
+          <img src="macbook.png" alt="MacBook Pro" loading="lazy" />
+        </div>
+        <div class="product-info">
+          <h3>MacBook Pro 16"</h3>
+          <p>
+            The ultimate beast for multitasking. Experience zero lag whether you're coding, designing, or playing high-end games.
+          </p>
+          <div class="product-footer">
+            <span class="price">₱149,990.00</span>
+            <button class="add-to-cart-btn" onclick="addToCart()">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="image-wrapper">
+          <img src="ipad.png" alt="iPad Air" loading="lazy" />
+        </div>
+        <div class="product-info">
+          <h3>iPad Air 5</h3>
+          <p>
+            Light. Speed. Powered by the incredibly fast chip, featuring a stunning 10.9-inch Liquid Retina display.
+          </p>
+          <div class="product-footer">
+            <span class="price">₱39,990.00</span>
+            <button class="add-to-cart-btn" onclick="addToCart()">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="image-wrapper">
+          <img src="airpods.png" alt="AirPods Pro" loading="lazy" />
+        </div>
+        <div class="product-info">
+          <h3>AirPods Pro 2</h3>
+          <p>
+            Rich, high-quality audio and innovative Active Noise Cancellation. Immerse yourself in sound like never before.
+          </p>
+          <div class="product-footer">
+            <span class="price">₱14,990.00</span>
+            <button class="add-to-cart-btn" onclick="addToCart()">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2026 Tresify Gadgets Shop. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="jaranilla_bt602e.js"></script>
+</body>
+</html>
